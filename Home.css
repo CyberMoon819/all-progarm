@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://i.pinimg.com/736x/7c/b1/86/7cb18679659f791b1191bea97b74dfc0.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Asap',sans-serif;
+    background-size: cover;
+    background-color: rgba(18,18,0,0.53);
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 10;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li{
+    display:  inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: white
+}
+.c2{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.r1{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.c3{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.c3 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+    color: white;
+}
+.c3 img{
+    max-width: 70%;
+    padding: 100px 0;
+}
+p{
+    color: white;
+}
+.botton{
+    display: inline-block;
+    background: rgb(231, 94, 14);
+    color: rgb(234, 238, 210);
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+}
+.video{
+    margin: 50px 0;
+    flex-basis: 30%;
+    margin-bottom: 30px;
+    min-width: 30%;
+    padding-left: 250px;
+}
+.categories{
+    margin: 50px 0;
+
+}
+.small{
+    max-width: 1080px;
+    margin: auto;
+    padding-bottom: 50px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.c4{
+    flex-basis: 10%;
+    min-width: 250px;
+    margin-bottom: 30px;
+    padding-left: 250px;
+}
+.c4 img{
+    width: 30%;
+}
+.c5{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+    padding-left: 250px;
+}
+.c5 img{
+    width: 30%;
+}
+.footer{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.footer-col-1{
+    padding-left: 30%;
+}
+.footer-col-2{
+    padding-left: 5%;
+}
+.footer-col-3{
+   padding-left: 5%;
+}
+.copyright{
+    text-align: center;
+    padding: 20px;
+    color: white;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Form.css">
+    <title>Product Form</title>
+</head>
+<body>
+    <section>
+        <div>
+            <h1><u>Customized your Free T-shirst</u></h1>
+        </div>
+        <div class="container">
+            <Form action="https://formspree.io/f/xoqybpzb" method="POST">
+                <div class="form-group">
+                    <label for="name"><b>Name:</b></label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div class="form-group">
+                    <label for="email"><b>Email ID:</b></label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="size"><b>Size of your T-shirt:</b></label>
+                    <table cellspacing="20"><tr><th>
+                    <input type="range" min="38" max="48" value="38" onchange="rangeSlider(this.value)"></th><th>
+                    <span id="rangeValue">38</span></th></tr></table>
+                </div>
+                <script type="text/javascript">
+                    function rangeSlider(value){
+                        document.getElementById('rangeValue').innerHTML = value;
+                    }
+                </script>
+                <div class="form-group">
+                    <label for="colour"><b>Your favorite colour:</b></label>
+                    <input type="color" name="colour" id="colour">
+                </div>
+                <div class="form-group">
+                    <label for="massage"><b>Description:</b></label>
+                    <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+                </div>
+                <button type="submit">Submit</button>
+                <div class="form-group-finish">
+                    <button type="button"><a href="Homepage.html">Back to home &#8617</a></button>
+                    <button type="reset">Reset &#8635</button>
+                </div>
+            </Form>
+        </div>
+    </section>
+</body>
+</html>

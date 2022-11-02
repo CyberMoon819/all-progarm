@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li{
+    display:  inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(18, 18, 221);
+}
+p{
+    color: black;
+}
+.Storage{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col1{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col1 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.col1 img{
+    max-width: 70%;
+    padding: 60px 0;
+}
+.botton{
+    display: inline-block;
+    background: rgb(231, 94, 14);
+    color: rgb(234, 238, 210);
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+}
+.Header{
+    background: radial-gradient(rgb(207, 153, 191),#c4bada);
+}
+.video{
+    margin: 50px 0;
+    flex-basis: 30%;
+    margin-bottom: 30px;
+    min-width: 250px;
+    padding-left: 625px;
+}
+.categories{
+    margin: 50px 0;
+
+}
+.col3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.col3 img{
+    width: 40%;
+}
+.col4{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.col4 img{
+    width: 40%;
+}
+.col5{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.col5 img{
+    width: 40%;
+}
+.small{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h2{
+    display: inline-block;
+    background: rgb(44, 10, 238);
+    color: rgb(234, 238, 210);
+    padding: 8px 30px;
+    margin: 30px 0;
+}
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 15px;
+    padding: 60px 20px 20px;
+    
+}
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer h4{
+    color: #fff;
+    margin-bottom: 10px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3{
+    min-width: 350px;
+    margin-bottom: 20px;
+}
+.footer-col-1{
+    flex-basis: 30%;
+}
+.footer-col-2{
+    text-align: center;
+}
+.footer-col-3{
+    text-align: end;
+}
+.footer table{
+    padding: 0;
+}
+.footer ul{
+    list-style-type: none;
+}
+.footer a{
+    color: #fff;
+    text-decoration: none;
+}
+.Copyright{
+    text-align: center;
+    color: white;
+    background: black;
+}
